@@ -1,0 +1,597 @@
+{
+  "total_records": 4320,
+  "hourly_stats": [
+    {
+      "hour": 0,
+      "hour_label": "00:00",
+      "avg_volume": 513.1,
+      "avg_speed": 54.4,
+      "congestion_distribution": [
+        349,
+        11,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 1,
+      "hour_label": "01:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 2,
+      "hour_label": "02:00",
+      "avg_volume": 513.8,
+      "avg_speed": 53.6,
+      "congestion_distribution": [
+        346,
+        14,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 3,
+      "hour_label": "03:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 4,
+      "hour_label": "04:00",
+      "avg_volume": 513.4,
+      "avg_speed": 54.1,
+      "congestion_distribution": [
+        348,
+        12,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 5,
+      "hour_label": "05:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 6,
+      "hour_label": "06:00",
+      "avg_volume": 1492.2,
+      "avg_speed": 41.1,
+      "congestion_distribution": [
+        40,
+        300,
+        20,
+        0
+      ]
+    },
+    {
+      "hour": 7,
+      "hour_label": "07:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 8,
+      "hour_label": "08:00",
+      "avg_volume": 2491.8,
+      "avg_speed": 21.5,
+      "congestion_distribution": [
+        1,
+        91,
+        56,
+        212
+      ]
+    },
+    {
+      "hour": 9,
+      "hour_label": "09:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 10,
+      "hour_label": "10:00",
+      "avg_volume": 2501.1,
+      "avg_speed": 21.3,
+      "congestion_distribution": [
+        1,
+        88,
+        65,
+        206
+      ]
+    },
+    {
+      "hour": 11,
+      "hour_label": "11:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 12,
+      "hour_label": "12:00",
+      "avg_volume": 1998.3,
+      "avg_speed": 32.3,
+      "congestion_distribution": [
+        0,
+        213,
+        134,
+        13
+      ]
+    },
+    {
+      "hour": 13,
+      "hour_label": "13:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 14,
+      "hour_label": "14:00",
+      "avg_volume": 1998.2,
+      "avg_speed": 32.3,
+      "congestion_distribution": [
+        0,
+        196,
+        157,
+        7
+      ]
+    },
+    {
+      "hour": 15,
+      "hour_label": "15:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 16,
+      "hour_label": "16:00",
+      "avg_volume": 1789.4,
+      "avg_speed": 35.5,
+      "congestion_distribution": [
+        0,
+        297,
+        61,
+        2
+      ]
+    },
+    {
+      "hour": 17,
+      "hour_label": "17:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 18,
+      "hour_label": "18:00",
+      "avg_volume": 2897.9,
+      "avg_speed": 14.0,
+      "congestion_distribution": [
+        0,
+        0,
+        64,
+        296
+      ]
+    },
+    {
+      "hour": 19,
+      "hour_label": "19:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 20,
+      "hour_label": "20:00",
+      "avg_volume": 2896.8,
+      "avg_speed": 13.9,
+      "congestion_distribution": [
+        0,
+        0,
+        64,
+        296
+      ]
+    },
+    {
+      "hour": 21,
+      "hour_label": "21:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "hour": 22,
+      "hour_label": "22:00",
+      "avg_volume": 1558.6,
+      "avg_speed": 40.0,
+      "congestion_distribution": [
+        36,
+        295,
+        29,
+        0
+      ]
+    },
+    {
+      "hour": 23,
+      "hour_label": "23:00",
+      "avg_volume": 0,
+      "avg_speed": 0,
+      "congestion_distribution": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "day_comparison": [
+    {
+      "day": "Monday",
+      "avg_volume": 1801.4,
+      "avg_speed": 34.0,
+      "congestion_rate": 40.8
+    },
+    {
+      "day": "Tuesday",
+      "avg_volume": 1807.2,
+      "avg_speed": 33.5,
+      "congestion_rate": 39.6
+    },
+    {
+      "day": "Wednesday",
+      "avg_volume": 1816.6,
+      "avg_speed": 33.7,
+      "congestion_rate": 40.2
+    },
+    {
+      "day": "Thursday",
+      "avg_volume": 1802.2,
+      "avg_speed": 33.3,
+      "congestion_rate": 41.8
+    },
+    {
+      "day": "Friday",
+      "avg_volume": 1796.8,
+      "avg_speed": 33.3,
+      "congestion_rate": 39.8
+    },
+    {
+      "day": "Saturday",
+      "avg_volume": 1652.8,
+      "avg_speed": 36.9,
+      "congestion_rate": 35.8
+    },
+    {
+      "day": "Sunday",
+      "avg_volume": 1646.5,
+      "avg_speed": 37.0,
+      "congestion_rate": 34.0
+    }
+  ],
+  "weather_stats": [
+    {
+      "weather": "Clear",
+      "count": 2920,
+      "avg_volume": 1786.6,
+      "avg_speed": 34.8,
+      "avg_occupancy": 51.9,
+      "high_congestion_pct": 38.2
+    },
+    {
+      "weather": "Cloudy",
+      "count": 1000,
+      "avg_volume": 1845.2,
+      "avg_speed": 33.4,
+      "avg_occupancy": 54.1,
+      "high_congestion_pct": 46.4
+    },
+    {
+      "weather": "Foggy",
+      "count": 88,
+      "avg_volume": 927.1,
+      "avg_speed": 43.3,
+      "avg_occupancy": 28.7,
+      "high_congestion_pct": 8.0
+    },
+    {
+      "weather": "Rainy",
+      "count": 312,
+      "avg_volume": 1524.1,
+      "avg_speed": 32.5,
+      "avg_occupancy": 47.9,
+      "high_congestion_pct": 30.8
+    }
+  ],
+  "segment_stats": [
+    {
+      "id": "SEG_01",
+      "name": "AB Road Central (Palasia to Geeta Bhawan)",
+      "type": "Arterial",
+      "lanes": 3,
+      "free_flow_speed": 50.0,
+      "avg_volume": 1583.9,
+      "avg_speed": 27.4,
+      "high_congestion_pct": 45.9,
+      "congestion_breakdown": [
+        133,
+        159,
+        111,
+        137
+      ]
+    },
+    {
+      "id": "SEG_02",
+      "name": "Eastern Bypass Corridor (Rau to Kanadia)",
+      "type": "Highway",
+      "lanes": 4,
+      "free_flow_speed": 80.0,
+      "avg_volume": 2952.5,
+      "avg_speed": 45.2,
+      "high_congestion_pct": 38.1,
+      "congestion_breakdown": [
+        137,
+        197,
+        80,
+        126
+      ]
+    },
+    {
+      "id": "SEG_03",
+      "name": "Ring Road Section 3 (Robot Square to Radisson)",
+      "type": "Arterial",
+      "lanes": 3,
+      "free_flow_speed": 55.0,
+      "avg_volume": 1481.6,
+      "avg_speed": 32.8,
+      "high_congestion_pct": 35.9,
+      "congestion_breakdown": [
+        146,
+        200,
+        69,
+        125
+      ]
+    },
+    {
+      "id": "SEG_04",
+      "name": "Super Corridor West (Airport to MR10)",
+      "type": "Expressway",
+      "lanes": 4,
+      "free_flow_speed": 85.0,
+      "avg_volume": 2984.8,
+      "avg_speed": 50.4,
+      "high_congestion_pct": 35.4,
+      "congestion_breakdown": [
+        142,
+        207,
+        59,
+        132
+      ]
+    },
+    {
+      "id": "SEG_05",
+      "name": "Bhawarkua Arterial (University to Tower Square)",
+      "type": "Collector",
+      "lanes": 2,
+      "free_flow_speed": 45.0,
+      "avg_volume": 868.8,
+      "avg_speed": 26.7,
+      "high_congestion_pct": 36.7,
+      "congestion_breakdown": [
+        144,
+        198,
+        76,
+        122
+      ]
+    },
+    {
+      "id": "SEG_06",
+      "name": "MR-10 Expressway Link (Tigaria to Vijay Nagar)",
+      "type": "Expressway",
+      "lanes": 3,
+      "free_flow_speed": 70.0,
+      "avg_volume": 1849.2,
+      "avg_speed": 41.6,
+      "high_congestion_pct": 36.9,
+      "congestion_breakdown": [
+        143,
+        198,
+        71,
+        128
+      ]
+    },
+    {
+      "id": "SEG_07",
+      "name": "Annapurna Road Corridor (Ranjeet Hanuman to Mhow)",
+      "type": "Collector",
+      "lanes": 2,
+      "free_flow_speed": 40.0,
+      "avg_volume": 804.5,
+      "avg_speed": 22.3,
+      "high_congestion_pct": 44.4,
+      "congestion_breakdown": [
+        137,
+        163,
+        103,
+        137
+      ]
+    },
+    {
+      "id": "SEG_08",
+      "name": "Vijay Nagar Central Junction (Brilliant to Scheme 54)",
+      "type": "Arterial",
+      "lanes": 3,
+      "free_flow_speed": 50.0,
+      "avg_volume": 1584.4,
+      "avg_speed": 29.7,
+      "high_congestion_pct": 38.1,
+      "congestion_breakdown": [
+        139,
+        195,
+        81,
+        125
+      ]
+    }
+  ],
+  "congestion_distribution": [
+    {
+      "class": 0,
+      "name": "Low",
+      "count": 1121,
+      "percentage": 25.9,
+      "color": "#10B981"
+    },
+    {
+      "class": 1,
+      "name": "Moderate",
+      "count": 1517,
+      "percentage": 35.1,
+      "color": "#F59E0B"
+    },
+    {
+      "class": 2,
+      "name": "High",
+      "count": 650,
+      "percentage": 15.0,
+      "color": "#F97316"
+    },
+    {
+      "class": 3,
+      "name": "Severe",
+      "count": 1032,
+      "percentage": 23.9,
+      "color": "#EF4444"
+    }
+  ],
+  "peak_hours": [
+    {
+      "hour": 18,
+      "hour_label": "18:00",
+      "avg_volume": 2897.9,
+      "avg_speed": 14.0,
+      "congestion_distribution": [
+        0,
+        0,
+        64,
+        296
+      ]
+    },
+    {
+      "hour": 20,
+      "hour_label": "20:00",
+      "avg_volume": 2896.8,
+      "avg_speed": 13.9,
+      "congestion_distribution": [
+        0,
+        0,
+        64,
+        296
+      ]
+    },
+    {
+      "hour": 10,
+      "hour_label": "10:00",
+      "avg_volume": 2501.1,
+      "avg_speed": 21.3,
+      "congestion_distribution": [
+        1,
+        88,
+        65,
+        206
+      ]
+    },
+    {
+      "hour": 8,
+      "hour_label": "08:00",
+      "avg_volume": 2491.8,
+      "avg_speed": 21.5,
+      "congestion_distribution": [
+        1,
+        91,
+        56,
+        212
+      ]
+    },
+    {
+      "hour": 12,
+      "hour_label": "12:00",
+      "avg_volume": 1998.3,
+      "avg_speed": 32.3,
+      "congestion_distribution": [
+        0,
+        213,
+        134,
+        13
+      ]
+    }
+  ],
+  "weekday_avg_volume": 1805.2,
+  "weekend_avg_volume": 1649.7,
+  "weekday_avg_speed": 33.6,
+  "weekend_avg_speed": 36.9
+}

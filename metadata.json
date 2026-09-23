@@ -1,0 +1,8 @@
+{
+  "name": "Remix SmartRoute AI - Urban Traffic Prediction \u0026 Adaptive Route Recommendation",
+  "description": "Machine learning based prediction of urban traffic congestion and adaptive alternative route recommendation system using historical traffic patterns, congestion modeling, and route cost optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "total_records": 4320,
+  "feature_count": 26,
+  "feature_names": [
+    "hour",
+    "weekday",
+    "month",
+    "is_weekend",
+    "is_peak_hour",
+    "lanes",
+    "traffic_volume",
+    "average_speed",
+    "road_occupancy",
+    "temperature",
+    "rainfall",
+    "incident",
+    "construction",
+    "volume_per_lane",
+    "speed_ratio",
+    "density_factor",
+    "sin_hour",
+    "cos_hour",
+    "road_type_Arterial",
+    "road_type_Highway",
+    "road_type_Collector",
+    "road_type_Expressway",
+    "weather_Clear",
+    "weather_Cloudy",
+    "weather_Rainy",
+    "weather_Foggy"
+  ],
+  "class_distribution": {
+    "0_Low": 1121,
+    "1_Moderate": 1517,
+    "2_High": 650,
+    "3_Severe": 1032
+  },
+  "train_set_size": 3024,
+  "val_set_size": 648,
+  "test_set_size": 648
+}

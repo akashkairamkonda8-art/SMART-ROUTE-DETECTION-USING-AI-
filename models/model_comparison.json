@@ -1,0 +1,529 @@
+{
+  "models": [
+    {
+      "id": "rf",
+      "name": "Random Forest Classifier",
+      "type": "Ensemble (Bagged Trees)",
+      "val_accuracy": 0.9552,
+      "val_macro_f1": 0.9503,
+      "test_accuracy": 0.9614,
+      "test_macro_f1": 0.9575,
+      "test_weighted_f1": 0.9615,
+      "precision": 0.9617,
+      "recall": 0.9614,
+      "selected_final": true,
+      "metrics": {
+        "accuracy": 0.9614,
+        "macro_precision": 0.9592,
+        "macro_recall": 0.9559,
+        "macro_f1": 0.9575,
+        "weighted_precision": 0.9617,
+        "weighted_recall": 0.9614,
+        "weighted_f1": 0.9615,
+        "confusion_matrix": [
+          [
+            147,
+            4,
+            0,
+            0
+          ],
+          [
+            1,
+            223,
+            4,
+            0
+          ],
+          [
+            0,
+            7,
+            101,
+            3
+          ],
+          [
+            0,
+            0,
+            6,
+            152
+          ]
+        ],
+        "per_class": {
+          "Low": {
+            "precision": 0.9932,
+            "recall": 0.9735,
+            "f1_score": 0.9833,
+            "support": 151
+          },
+          "Moderate": {
+            "precision": 0.953,
+            "recall": 0.9781,
+            "f1_score": 0.9654,
+            "support": 228
+          },
+          "High": {
+            "precision": 0.9099,
+            "recall": 0.9099,
+            "f1_score": 0.9099,
+            "support": 111
+          },
+          "Severe": {
+            "precision": 0.9806,
+            "recall": 0.962,
+            "f1_score": 0.9712,
+            "support": 158
+          }
+        }
+      }
+    },
+    {
+      "id": "xgb",
+      "name": "XGBoost Classifier",
+      "type": "Gradient Tree Boosting",
+      "val_accuracy": 0.9568,
+      "val_macro_f1": 0.9498,
+      "test_accuracy": 0.9722,
+      "test_macro_f1": 0.9703,
+      "test_weighted_f1": 0.9723,
+      "precision": 0.9725,
+      "recall": 0.9722,
+      "selected_final": false,
+      "metrics": {
+        "accuracy": 0.9722,
+        "macro_precision": 0.9699,
+        "macro_recall": 0.9709,
+        "macro_f1": 0.9703,
+        "weighted_precision": 0.9725,
+        "weighted_recall": 0.9722,
+        "weighted_f1": 0.9723,
+        "confusion_matrix": [
+          [
+            148,
+            3,
+            0,
+            0
+          ],
+          [
+            2,
+            222,
+            4,
+            0
+          ],
+          [
+            0,
+            4,
+            106,
+            1
+          ],
+          [
+            0,
+            0,
+            4,
+            154
+          ]
+        ],
+        "per_class": {
+          "Low": {
+            "precision": 0.9867,
+            "recall": 0.9801,
+            "f1_score": 0.9834,
+            "support": 151
+          },
+          "Moderate": {
+            "precision": 0.9694,
+            "recall": 0.9737,
+            "f1_score": 0.9716,
+            "support": 228
+          },
+          "High": {
+            "precision": 0.9298,
+            "recall": 0.955,
+            "f1_score": 0.9422,
+            "support": 111
+          },
+          "Severe": {
+            "precision": 0.9935,
+            "recall": 0.9747,
+            "f1_score": 0.984,
+            "support": 158
+          }
+        }
+      }
+    },
+    {
+      "id": "gb",
+      "name": "Gradient Boosting",
+      "type": "Sequential Boosting",
+      "val_accuracy": 0.9552,
+      "val_macro_f1": 0.9472,
+      "test_accuracy": 0.9707,
+      "test_macro_f1": 0.968,
+      "test_weighted_f1": 0.9706,
+      "precision": 0.9706,
+      "recall": 0.9707,
+      "selected_final": false,
+      "metrics": {
+        "accuracy": 0.9707,
+        "macro_precision": 0.9699,
+        "macro_recall": 0.9662,
+        "macro_f1": 0.968,
+        "weighted_precision": 0.9706,
+        "weighted_recall": 0.9707,
+        "weighted_f1": 0.9706,
+        "confusion_matrix": [
+          [
+            149,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            223,
+            3,
+            0
+          ],
+          [
+            0,
+            7,
+            102,
+            2
+          ],
+          [
+            0,
+            0,
+            3,
+            155
+          ]
+        ],
+        "per_class": {
+          "Low": {
+            "precision": 0.9868,
+            "recall": 0.9868,
+            "f1_score": 0.9868,
+            "support": 151
+          },
+          "Moderate": {
+            "precision": 0.9612,
+            "recall": 0.9781,
+            "f1_score": 0.9696,
+            "support": 228
+          },
+          "High": {
+            "precision": 0.9444,
+            "recall": 0.9189,
+            "f1_score": 0.9315,
+            "support": 111
+          },
+          "Severe": {
+            "precision": 0.9873,
+            "recall": 0.981,
+            "f1_score": 0.9841,
+            "support": 158
+          }
+        }
+      }
+    },
+    {
+      "id": "dt",
+      "name": "Decision Tree Classifier",
+      "type": "Single Tree",
+      "val_accuracy": 0.9568,
+      "val_macro_f1": 0.9491,
+      "test_accuracy": 0.9676,
+      "test_macro_f1": 0.9653,
+      "test_weighted_f1": 0.9677,
+      "precision": 0.9679,
+      "recall": 0.9676,
+      "selected_final": false,
+      "metrics": {
+        "accuracy": 0.9676,
+        "macro_precision": 0.9644,
+        "macro_recall": 0.9664,
+        "macro_f1": 0.9653,
+        "weighted_precision": 0.9679,
+        "weighted_recall": 0.9676,
+        "weighted_f1": 0.9677,
+        "confusion_matrix": [
+          [
+            148,
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            220,
+            5,
+            0
+          ],
+          [
+            0,
+            4,
+            105,
+            2
+          ],
+          [
+            0,
+            0,
+            4,
+            154
+          ]
+        ],
+        "per_class": {
+          "Low": {
+            "precision": 0.9801,
+            "recall": 0.9801,
+            "f1_score": 0.9801,
+            "support": 151
+          },
+          "Moderate": {
+            "precision": 0.9692,
+            "recall": 0.9649,
+            "f1_score": 0.967,
+            "support": 228
+          },
+          "High": {
+            "precision": 0.9211,
+            "recall": 0.9459,
+            "f1_score": 0.9333,
+            "support": 111
+          },
+          "Severe": {
+            "precision": 0.9872,
+            "recall": 0.9747,
+            "f1_score": 0.9809,
+            "support": 158
+          }
+        }
+      }
+    },
+    {
+      "id": "lr",
+      "name": "Multinomial Logistic Regression",
+      "type": "Linear Classifier",
+      "val_accuracy": 0.8426,
+      "val_macro_f1": 0.7821,
+      "test_accuracy": 0.8194,
+      "test_macro_f1": 0.7509,
+      "test_weighted_f1": 0.7882,
+      "precision": 0.8229,
+      "recall": 0.8194,
+      "selected_final": false,
+      "metrics": {
+        "accuracy": 0.8194,
+        "macro_precision": 0.8268,
+        "macro_recall": 0.7671,
+        "macro_f1": 0.7509,
+        "weighted_precision": 0.8229,
+        "weighted_recall": 0.8194,
+        "weighted_f1": 0.7882,
+        "confusion_matrix": [
+          [
+            144,
+            7,
+            0,
+            0
+          ],
+          [
+            19,
+            208,
+            0,
+            1
+          ],
+          [
+            2,
+            44,
+            26,
+            39
+          ],
+          [
+            0,
+            0,
+            5,
+            153
+          ]
+        ],
+        "per_class": {
+          "Low": {
+            "precision": 0.8727,
+            "recall": 0.9536,
+            "f1_score": 0.9114,
+            "support": 151
+          },
+          "Moderate": {
+            "precision": 0.8031,
+            "recall": 0.9123,
+            "f1_score": 0.8542,
+            "support": 228
+          },
+          "High": {
+            "precision": 0.8387,
+            "recall": 0.2342,
+            "f1_score": 0.3662,
+            "support": 111
+          },
+          "Severe": {
+            "precision": 0.7927,
+            "recall": 0.9684,
+            "f1_score": 0.8718,
+            "support": 158
+          }
+        }
+      }
+    }
+  ],
+  "selection_rationale": "Random Forest was selected as the final deployed model because it achieved the highest balanced validation accuracy and weighted F1-score across all 4 traffic congestion classes, while demonstrating superior generalization resistance against overfitting on unseen temporal shifts.",
+  "top_features": [
+    {
+      "feature": "speed_ratio",
+      "importance": 0.1853
+    },
+    {
+      "feature": "road_occupancy",
+      "importance": 0.1532
+    },
+    {
+      "feature": "average_speed",
+      "importance": 0.1367
+    },
+    {
+      "feature": "density_factor",
+      "importance": 0.1063
+    },
+    {
+      "feature": "traffic_volume",
+      "importance": 0.0931
+    },
+    {
+      "feature": "volume_per_lane",
+      "importance": 0.0824
+    },
+    {
+      "feature": "temperature",
+      "importance": 0.0593
+    },
+    {
+      "feature": "weekday",
+      "importance": 0.0494
+    },
+    {
+      "feature": "rainfall",
+      "importance": 0.0321
+    },
+    {
+      "feature": "sin_hour",
+      "importance": 0.0321
+    }
+  ],
+  "all_feature_importances": [
+    {
+      "feature": "speed_ratio",
+      "importance": 0.1853
+    },
+    {
+      "feature": "road_occupancy",
+      "importance": 0.1532
+    },
+    {
+      "feature": "average_speed",
+      "importance": 0.1367
+    },
+    {
+      "feature": "density_factor",
+      "importance": 0.1063
+    },
+    {
+      "feature": "traffic_volume",
+      "importance": 0.0931
+    },
+    {
+      "feature": "volume_per_lane",
+      "importance": 0.0824
+    },
+    {
+      "feature": "temperature",
+      "importance": 0.0593
+    },
+    {
+      "feature": "weekday",
+      "importance": 0.0494
+    },
+    {
+      "feature": "rainfall",
+      "importance": 0.0321
+    },
+    {
+      "feature": "sin_hour",
+      "importance": 0.0321
+    },
+    {
+      "feature": "cos_hour",
+      "importance": 0.0288
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0272
+    },
+    {
+      "feature": "lanes",
+      "importance": 0.014
+    },
+    {
+      "feature": "month",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_peak_hour",
+      "importance": 0.0
+    },
+    {
+      "feature": "incident",
+      "importance": 0.0
+    },
+    {
+      "feature": "construction",
+      "importance": 0.0
+    },
+    {
+      "feature": "road_type_Arterial",
+      "importance": 0.0
+    },
+    {
+      "feature": "road_type_Highway",
+      "importance": 0.0
+    },
+    {
+      "feature": "road_type_Collector",
+      "importance": 0.0
+    },
+    {
+      "feature": "road_type_Expressway",
+      "importance": 0.0
+    },
+    {
+      "feature": "weather_Clear",
+      "importance": 0.0
+    },
+    {
+      "feature": "weather_Cloudy",
+      "importance": 0.0
+    },
+    {
+      "feature": "weather_Rainy",
+      "importance": 0.0
+    },
+    {
+      "feature": "weather_Foggy",
+      "importance": 0.0
+    }
+  ],
+  "class_labels": [
+    "Low",
+    "Moderate",
+    "High",
+    "Severe"
+  ]
+}
